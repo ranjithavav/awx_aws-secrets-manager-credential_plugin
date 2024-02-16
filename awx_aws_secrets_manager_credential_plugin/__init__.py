@@ -4,7 +4,7 @@ from botocore.exceptions import ClientError
 CredentialPlugin = collections.namedtuple('CredentialPlugin', ['name', 'inputs', 'backend'])
 
 def aws_secretsmanager_role_backend(**kwargs):
-    iam_role = kwargs.get['iam_role']
+    iam_role = kwargs.get('iam_role')
     region_name = kwargs.get('region_name')
     secret_name = kwargs.get('secret_name')
 
