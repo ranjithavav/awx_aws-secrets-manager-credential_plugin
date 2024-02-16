@@ -10,7 +10,7 @@ setup(
     long_description='',
     license='Apache License 2.0',
     keywords='ansible',
-    url='',
+    url='https://github.com/ranjithavav/awx_aws-secrets-manager-credential_plugin',
     packages=['awx_aws-secrets-manager-credential_plugin'],
     include_package_data=True,
     zip_safe=False,
